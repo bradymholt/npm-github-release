@@ -1,4 +1,4 @@
-# npm-github-release
+# npm-github-release [![NPM Package](https://img.shields.io/npm/v/npm-github-release.svg)](https://www.npmjs.com/package/npm-github-release)
 
 Automate the full release process for npm packages.
 
