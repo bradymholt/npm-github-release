@@ -98,7 +98,7 @@ function promptReleaseNotes() {
         });
 
         rl.on('close', function (cmd) {
-            resolve(input.join('\n'));
+            resolve("Release %s\n\n" + input.join('\n'));
         });
 
     });
