@@ -1,7 +1,7 @@
 {
     "name": "npm-github-release",
-    "version": "0.7.3",
-    "description": "The missing prepublish helper",
+    "version": "0.7.4",
+    "description": "Automates the full release process for npm packages",
     "author": "Brady Holt",
     "license": "MIT",
     "main": "index.js",
