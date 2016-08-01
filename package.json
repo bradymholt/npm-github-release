@@ -1,0 +1,33 @@
+{
+    "name": "npm-github-release",
+    "version": "1.0.0",
+    "description": "The missing prepublish helper",
+    "author": "Brady Holt",
+    "license": "MIT",
+    "main": "index.js",
+    "bin": {
+        "npm-github-release": "./index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/bradyholt/npm-github-release.git"
+    },
+    "keywords": [
+        "release",
+        "publish",
+        "github",
+        "release",
+        "prepublish",
+        "pre",
+        "release"
+    ],
+    "bugs": {
+        "url": "https://github.com/bradyholt/npm-github-release/issues"
+    },
+    "homepage": "https://github.com/bradyholt/npm-github-release#readme",
+    "dependencies": {
+        "bluebird": "^3.4.1",
+        "inquirer": "^1.1.2",
+        "octonode": "^0.7.6"
+    }
+}
