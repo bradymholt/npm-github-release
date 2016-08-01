@@ -17,3 +17,7 @@ Add `npm-github-release` as an npm prepublish script
 ## Run
 
 Run `npm publish` to publish your npm package
+
+## Demo
+
+![Demo](https://cloud.githubusercontent.com/assets/759811/17310238/b74f40f2-5808-11e6-9b91-4a6697008242.gif)
