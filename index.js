@@ -176,9 +176,11 @@ function run() {
         })
         .then((output) => {
             console.log("\x1b[1m\x1b[32m%s\x1b[0m", `${releaseTagName} released to GitHub - ${output.html_url}`);
+            process.exit(0);
         })
         .catch((errorMessage) => {
             console.log("\x1b[31mERROR: %s\x1b[0m", errorMessage);
+            process.exit(1);
         });
 }
 
