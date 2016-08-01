@@ -2,7 +2,7 @@
 
 'use strict';
 
-var packageInfo = require("../package.json");
+var packageInfo = require(process.env.PWD + "/package.json");
 var inquirer = require('inquirer');
 var github = require("octonode");
 var Promise = require("bluebird");
