@@ -98,7 +98,7 @@ function promptReleaseNotes() {
         });
 
         rl.on('close', function (cmd) {
-            resolve("Release %s\n\n" + input.join('\n'));
+            resolve(input.join("\n"));
         });
 
     });
@@ -107,7 +107,7 @@ function promptReleaseNotes() {
 function versionAndReturnTagName(versionType, releaseNotes) {
     return new Promise(function (resolve, reject) {
         console.log("\x1b[1m\x1b[37m%s\x1b[0m", "Versioning package...");
-        pexec(`npm version ${versionType} -m "${releaseNotes}"`)
+        pexec(`npm version ${versionType} -m "Release %s\n\n${releaseNotes}"`)
             .then((command, output) => {
                 console.log("\x1b[1m\x1b[37m%s\x1b[0m", "Pushing new release tag to GitHub...");
                 return pexec("git push --follow-tags");
