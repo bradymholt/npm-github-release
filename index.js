@@ -144,8 +144,8 @@ function createGitHubRelease(repoName, releaseTagName, releaseNotes, token) {
     })
 }
 
-function npmPublish(releaseTagName) {
-    return pexec(`npm publish --tag ${releaseTagName}`);
+function npmPublish() {
+    return pexec("npm publish");
 }
 
 function run() {

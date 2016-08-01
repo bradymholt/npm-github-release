@@ -1,6 +1,6 @@
 {
     "name": "npm-github-release",
-    "version": "0.7.0",
+    "version": "0.7.1",
     "description": "The missing prepublish helper",
     "author": "Brady Holt",
     "license": "MIT",
