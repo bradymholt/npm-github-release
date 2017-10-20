@@ -175,7 +175,7 @@ function run() {
         })
         .then((tagName) => {
             releaseTagName = tagName;
-            let repoName = packageInfo.repository.url.match(/\.com\/(\w+\/(?:(?!\.git).)*)/)[1];
+            let repoName = packageInfo.repository.url.match(/\.com\/(\w+\/(?:(?!\.git)[^/])*)/)[1];
             return createGitHubRelease(repoName, releaseTagName, releaseNotes, ghToken);
         })
         .then((output) => {
