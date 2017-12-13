@@ -40,7 +40,7 @@ function promptVersionType() {
                 name: 'type',
                 message: 'What type of release is this?',
                 choices: [
-                    'Major',
+                    'major',
                     'minor',
                     'patch',
                 ]
