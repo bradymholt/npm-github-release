@@ -9,6 +9,8 @@ When publishing npm packages, there is more to do than just running `npm package
 
 npm-github-release automates these steps in a simple way.  Simply run `npm run release`, specify the release type (major, minor, patch), provide release notes and you are done.  After npm-github-release finishes, you will have a new version of your package available on npm as well as a corresponding release on GitHub with release notes. 
 
+**Only macOS and Linux are supported**.
+
 ## Usage
 
 1. Install npm-github-release
