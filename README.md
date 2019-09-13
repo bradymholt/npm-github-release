@@ -35,3 +35,5 @@ npm i --save-dev npm-github-release
 ## Settings
 
 A [GitHub Personal access token](https://help.github.com/articles/creating-an-access-token-for-command-line-use/) will be needed to create the release on GitHub.  Adding this token to an environment variable named `GITHUB_API_TOKEN` is recommended as this will allow npm-github-release to skip prompting for it.
+
+
