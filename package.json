@@ -1,6 +1,6 @@
 {
     "name": "npm-github-release",
-    "version": "0.11.0",
+    "version": "0.12.0",
     "description": "Automates the full release process for npm packages",
     "author": "Brady Holt",
     "license": "MIT",
