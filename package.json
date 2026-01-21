@@ -27,7 +27,7 @@
     "homepage": "https://github.com/bradyholt/npm-github-release#readme",
     "dependencies": {
         "bluebird": "^3.7.2",
-        "inquirer": "^7.1.0",
+        "inquirer": "^13.2.1",
         "octonode": "^0.9.5"
     }
 }
